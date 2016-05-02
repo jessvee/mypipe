@@ -1,0 +1,2 @@
+# mypipe
+A simplified version of the Linux pipe command line utility, which takes the output of the first called program and uses it as input for the second to create a compound command. It demonstrates the use of exec to call external programs, thread creation via fork and management via parent and child process ID's and wait(). This program also shows handling of file descriptors (particularly with stdin, stdout and stderr), proper use of exit status, and error handling.
